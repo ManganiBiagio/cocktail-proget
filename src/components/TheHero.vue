@@ -56,7 +56,7 @@ export default {
 .background {
     background-size: cover;
     height: 1000px;
-    background-image: url(../../public/HeroHor.jpg);
+    background-image: url(/HeroHor.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     width: 100%;
