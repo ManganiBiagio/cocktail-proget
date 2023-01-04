@@ -1,8 +1,8 @@
 <template >
-    <div class="container">
-        <div class="row align-items-center">
+    <div class="container-fluid">
+        <div class="row align-items-center ">
 
-            <div class="col flex-grow-0">
+            <div class="col-2">
                 <div class="title">
                     Margarita
                 </div>
@@ -10,18 +10,14 @@
             <div class="col flex-grow-1 ">
                 <div class="bar">
                     <ul>
-                        <li>Home</li>
+                        <li class="active">Home</li>
                         <li>Cocktail</li>
                         <li>Favorite</li>
                     </ul>
                 </div>
             </div>
-            <div class="col-2">
-                <form  action=""
-                    class="search-bar d-flex justify-content-end  " >
-
-
-
+            <div class="col-1 ">
+                <form  action="" class="search-bar d-flex justify-content-end  " >
                     <input type="search" name="search" pattern=".*\S.*" required 
                         placeholder="">
                     <button class="search-btn" type="submit">
@@ -32,7 +28,7 @@
             </div>
             <div class="col-1">
                 <div class="login">
-                    <button class="btn">Login</button>
+                    <button class="btn ElzaOblique">Login</button>
                 </div>
 
             </div>
@@ -48,6 +44,9 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+.container-fluid{
+    color: var(--color-white);
+}
 .title {
     font-family: gardez, sans-serif;
     font-weight: 800;
@@ -66,17 +65,28 @@ export default {
         justify-content: center;
         align-items: center;
         margin: unset;
+        gap: 3rem;
 
         li {
             display: block;
             padding: .5rem;
-            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            
+            
             text-align: center;
             font-family: elza, sans-serif;
             font-weight: 500;
             font-style: normal;
             font-size: 20px;
         }
+        .active::after{
+            content: "";
+            height: 3px;
+            background-color: var(--btn-color-1);
+            border-radius: 20px;
+        }
+        
 
     }
 
@@ -85,9 +95,7 @@ export default {
 .login {
     .btn {
         background-color: var(--btn-color-1);
-        font-family: elza, sans-serif;
-        font-weight: 400;
-        font-style: italic;
+        
     }
 }
 
