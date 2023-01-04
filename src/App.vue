@@ -1,13 +1,23 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script >
+
 import TheHero from './components/TheHero.vue';
 import TheNavbar from './components/TheNavbar.vue';
+import TheRandomDrink from './components/TheRandomDrink.vue';
+export default{
+  components:{
+    TheHero,
+    TheNavbar,
+    TheRandomDrink
+
+  },
+}
 </script>
 
 <template>
   <TheNavbar class="nav-box"></TheNavbar>
 
   <TheHero></TheHero>
+  <TheRandomDrink></TheRandomDrink>
 
 </template>
 

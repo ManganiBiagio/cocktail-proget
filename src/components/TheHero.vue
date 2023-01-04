@@ -52,7 +52,7 @@ export default {
 
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .background {
     background-size: cover;
     height: 1000px;
