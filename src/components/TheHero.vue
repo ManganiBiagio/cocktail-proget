@@ -8,7 +8,7 @@
             <div class="col-3">
                 <div class="center">
                     <div class="box-card">
-                        <div class="title ElzaExtralight mb-2">Margarita</div>
+                        <div class="title ElzaExtralightOblique mb-2">Margarita</div>
                         <div class="paragraf ElzaThin">
                             Il margarita è un cocktail composto da <strong>tequila</strong>,
                              <strong>liquore all'arancia</strong>  e <strong>succo di lime</strong>; 
@@ -16,11 +16,11 @@
                              È il più comune cocktail messicano a base di tequila 
                              e in genere viene servito come aperitivo
                         </div>
-                        <div class="subtitle">
+                        <div class="subtitle ElzaThinOblique">
                             Ingredienti
 
                         </div>
-                        <div class="ingredient-list">
+                        <div class="ingredient-list ElzaThin">
                             <ul>
                                 <li>
                                     Tequila - 50%
