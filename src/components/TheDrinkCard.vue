@@ -10,16 +10,19 @@
                            {{drink.strInstructionsIT}}
                 
                         </div>
-                        <div class="subtitle ElzaThinOblique">Ingredienti</div>
-                        <div class="ingredient-list ElzaThin">
-                                <ul >
-                                    <li v-for="ingredient in ingredientList" >
-                                        {{ingredient.ingredient}} - {{ingredient.mesaure}}                                     
-                                    </li>
-                                    
-                                </ul>
-    
+                        <div class="ingredient">
+
+                            <div class="subtitle ElzaThinOblique">Ingredienti</div>
+                            <div class="ingredient-list ElzaThin">
+                                    <ul >
+                                        <li v-for="ingredient in ingredientList" >
+                                            {{ingredient.ingredient}} - {{ingredient.mesaure}}                                     
+                                        </li>
+                                        
+                                    </ul>
+        
                             </div>
+                        </div>
                         
                     </div>
 </template>
@@ -64,21 +67,42 @@ export default {
     align-items: center;
     border: 1px solid var(--color-white);
     border-radius: 20px;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    
+
 
     .img-box{
         border-radius: 80px;
         overflow: hidden;
         border:3px solid var(--color-white);
+        margin: 1rem;
+        
     }
     .instruction{
         padding: .5rem 3rem;
         font-size: 1.5rem;
+        
+        
+        
+  
+        
+       
+        
+        
+    }
+    .ingredient{
+        flex-grow: 1;
     }
     .title{
         font-size: 2.5rem;
     }
+    
     .subtitle{
         font-size: 2rem;
+        text-align: center;
     }
 }
     
