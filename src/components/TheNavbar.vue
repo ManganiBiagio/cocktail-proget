@@ -28,7 +28,7 @@
             </div>
             <div class="col-1">
                 <div class="login">
-                    <button class="btn ElzaOblique">Login</button>
+                    <button class="my-btn-primary ElzaOblique">Login</button>
                 </div>
 
             </div>
@@ -92,12 +92,7 @@ export default {
 
 }
 
-.login {
-    .btn {
-        background-color: var(--btn-color-1);
-        
-    }
-}
+
 
 
 .search-bar input,

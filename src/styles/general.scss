@@ -1,12 +1,26 @@
-:root{
-    --btn-color-1:#34FFC8;
-    --btn-color-1-dark:#2cc29a;
-    --color-txt-btn:#171717;
-    --color-white:#f1f1f1;
-    --bg-dark:#212121;
+:root {
+    --btn-color-1: #34FFC8;
+    --btn-color-1-dark: #2cc29a;
+    --color-txt-btn: #171717;
+    --color-white: #f1f1f1;
+    --bg-dark: #212121;
 }
 
-.ElzaBlack{
+.my-btn-primary {
+    background-color: var(--btn-color-1);
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    &:hover{
+        background-color: var(--btn-color-1-dark);
+    }
+}
+
+
+
+
+//Font
+
+.ElzaBlack {
     font-family: elza, sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -14,160 +28,160 @@
 
 
 
-.ElzaBlackOblique{
+.ElzaBlackOblique {
     font-family: elza, sans-serif;
-    
+
     font-weight: 900;
-    
+
     font-style: italic;
 
-} 
+}
 
 
 
-.ElzaBold{
+.ElzaBold {
     font-family: elza, sans-serif;
-    
+
     font-weight: 700;
-    
+
     font-style: normal;
 
 }
 
 
 
-.ElzaBoldOblique{
-    font-family: elza, sans-serif;    
-    font-weight: 700;  
+.ElzaBoldOblique {
+    font-family: elza, sans-serif;
+    font-weight: 700;
     font-style: italic;
 
 }
 
 
 
-.ElzaExtralight{
-    font-family: elza, sans-serif;  
-    font-weight: 200; 
-    font-style: normal;
-}
-
-
-
-.ElzaExtralightOblique{
+.ElzaExtralight {
     font-family: elza, sans-serif;
-    
     font-weight: 200;
-    
+    font-style: normal;
+}
+
+
+
+.ElzaExtralightOblique {
+    font-family: elza, sans-serif;
+
+    font-weight: 200;
+
     font-style: italic;
 
 }
 
 
 
-.ElzaLight{
+.ElzaLight {
     font-family: elza, sans-serif;
-    
+
     font-weight: 300;
-    
+
     font-style: normal;
 
 }
 
 
 
-.ElzaLightOblique{
+.ElzaLightOblique {
     font-family: elza, sans-serif;
-    
+
     font-weight: 300;
-    
+
     font-style: italic;
 
 }
 
 
 
-.ElzaMedium{
+.ElzaMedium {
     font-family: elza, sans-serif;
-    
+
     font-weight: 500;
-    
+
     font-style: normal;
 
 }
 
 
 
-.ElzaMediumOblique{
+.ElzaMediumOblique {
     font-family: elza, sans-serif;
-    
+
     font-weight: 500;
-    
+
     font-style: italic;
 
 }
 
 
 
-.ElzaOblique{
+.ElzaOblique {
     font-family: elza, sans-serif;
-    
+
     font-weight: 400;
-    
+
     font-style: italic;
 
 }
 
 
 
-.ElzaRegular{
+.ElzaRegular {
 
     font-family: elza, sans-serif;
-    
+
     font-weight: 400;
-    
+
     font-style: normal;
 }
 
 
 
-.ElzaSemibold{
+.ElzaSemibold {
     font-family: elza, sans-serif;
-    
+
     font-weight: 600;
-    
+
     font-style: normal;
 
 }
 
 
 
-.ElzaSemiboldOblique{
+.ElzaSemiboldOblique {
     font-family: elza, sans-serif;
-    
+
     font-weight: 600;
-    
+
     font-style: italic;
 
 }
 
 
 
-.ElzaThin{
+.ElzaThin {
     font-family: elza, sans-serif;
-    
+
     font-weight: 100;
-    
+
     font-style: normal;
 
 }
 
 
 
-.ElzaThinOblique{
+.ElzaThinOblique {
     font-family: elza, sans-serif;
-    
+
     font-weight: 100;
-    
+
     font-style: italic;
 
 }
