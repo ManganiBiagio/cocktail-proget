@@ -1,25 +1,30 @@
 <script >
 
-import TheHero from './components/TheHero.vue';
+
 import TheNavbar from './components/TheNavbar.vue';
-import TheNegroni from './components/TheNegroni.vue';
-import TheRandomDrink from './components/TheRandomDrink.vue';
+import TheHome from './components/TheHome.vue'
+import {store} from './store'
+
 export default{
   components:{
-    TheHero,
+    TheHome,
     TheNavbar,
-    TheRandomDrink,
-    TheNegroni
+    
 },
+data(){
+        return{
+                store,
+        }
+    },
 }
 </script>
 
 <template>
   <TheNavbar class="nav-box"></TheNavbar>
+  <TheHome v-if="store.navBar.indexLink===0"></TheHome>
+  
 
-  <TheHero></TheHero>
-  <TheRandomDrink></TheRandomDrink>
-  <TheNegroni></TheNegroni>
+  
 
 </template>
 

@@ -9,14 +9,12 @@
                     <div class="box-card">
                         <div class="title ElzaExtralightOblique mb-2">Negroni</div>
                         <div class="paragraf ElzaThin">
-                            Fu ideato a Firenze nel 1919-20 dal conte Camillo Negroni.
+                            Fu ideato a <strong>Firenze</strong>  nel 1919-20 dal conte <strong>Camillo Negroni</strong>.
                              Negli anni venti il conte era solito frequentare l'aristocratico
-                              Caffè Casoni in Via de' Tornabuoni a Firenze (locale in cui verrà trasferita
-                               in seguito l'attività del già esistente Caffè Giacosa) e, per variare dal suo
+                              Caffè Casoni in Via de' Tornabuoni a Firenze  e, per variare dal suo
                                 abituale aperitivo Americano, chiese al barman Angelo Tesauro
-                                 (secondo altri autori però pare che fosse Fosco Scarselli) di aggiungere
-                                  un po' di gin in sostituzione del seltz, in onore degli ultimi viaggi londinesi.
-                                   Il nuovo cocktail divenne noto come l'"Americano alla moda del conte Negroni",
+                                  di aggiungere un po' di <strong>gin</strong> in sostituzione del seltz, in onore degli ultimi viaggi londinesi.
+                                   Il nuovo cocktail divenne noto come <strong>l'"Americano alla moda del conte Negroni"</strong>,
                                     ovvero un Americano con un'aggiunta di gin, e in seguito prese il nome del conte
                                      stesso.
                         </div>
@@ -27,13 +25,13 @@
                         <div class="ingredient-list ElzaThin">
                             <ul>
                                 <li>
-                                    Tequila - 50%
+                                    Gin - 3cl
                                 </li>
                                 <li>
-                                    Triple Sec - 21.5%
+                                    Campari - 3cl
                                 </li>
                                 <li>
-                                    Lime fresco
+                                    Vermut Rosso - 3cl
                                 </li>
                             </ul>
 
@@ -60,7 +58,7 @@ export default {
     height: 1000px;
     background-image: url(/negroni01.jpg);
     background-repeat: no-repeat;
-    background-position: bottom;
+    
     width: 100%;
     color: var(--color-white);
 
@@ -106,6 +104,6 @@ export default {
 .box-card {
     background-color: black;
     opacity: 80%;
-    padding: 2rem;
+    padding:1.5rem;
 }
 </style>
