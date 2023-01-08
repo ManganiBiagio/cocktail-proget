@@ -1,5 +1,6 @@
 import { reactive } from "vue";
 import axios from "axios";
+import { Navbar } from "./navBar";
 
 export const store = reactive({
     
@@ -16,6 +17,7 @@ export const store = reactive({
         }
         
     },
+    navBar:new Navbar(),
     
 
 })

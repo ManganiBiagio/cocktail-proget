@@ -2,14 +2,15 @@
 
 import TheHero from './components/TheHero.vue';
 import TheNavbar from './components/TheNavbar.vue';
+import TheNegroni from './components/TheNegroni.vue';
 import TheRandomDrink from './components/TheRandomDrink.vue';
 export default{
   components:{
     TheHero,
     TheNavbar,
-    TheRandomDrink
-
-  },
+    TheRandomDrink,
+    TheNegroni
+},
 }
 </script>
 
@@ -18,6 +19,7 @@ export default{
 
   <TheHero></TheHero>
   <TheRandomDrink></TheRandomDrink>
+  <TheNegroni></TheNegroni>
 
 </template>
 

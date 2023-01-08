@@ -10,9 +10,8 @@
             <div class="col flex-grow-1 ">
                 <div class="bar">
                     <ul>
-                        <li class="active">Home</li>
-                        <li>Cocktail</li>
-                        <li>Favorite</li>
+                        <li @click="store.navBar.click(i)" :class="i===store.navBar.indexLink? 'active':''" v-for="navlink,i in store.navBar.linkList">{{navlink}}</li>
+                        
                     </ul>
                 </div>
             </div>
@@ -39,7 +38,13 @@
     </div>
 </template>
 <script>
+import {store} from '../store'
 export default {
+    data(){
+        return{
+                store,
+        }
+    },
 
 }
 </script>
@@ -72,13 +77,16 @@ export default {
             padding: .5rem;
             display: flex;
             flex-direction: column;
-            
-            
             text-align: center;
             font-family: elza, sans-serif;
             font-weight: 500;
             font-style: normal;
             font-size: 20px;
+            &:hover{
+                cursor: pointer;
+                color: var(--btn-color-1-dark);
+                
+            }
         }
         .active::after{
             content: "";
